@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Boletim Escolar</title>
+</head>
+<body>
+  <header class="header">
+    <a href="/">Logo</a>
+    <nav>
+      <ul class="menu">
+        <li>Home</li>
+        <li>Área do Aluno</li>
+        <li>Outros Projeto</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Boletim Escolar</h1>
+
+    <form action="" id="resultado">
+
+      <label for="nome">Nota 1</label><br>
+      <input type="text" id="nota1"><br><br>
+
+      <label for="idade">Nota 2</label><br>
+      <input type="number" id="nota2"><br><br>
+
+      <label for="cargo">Nota 3</label><br>
+      <input type="text" id="nota3"><br><br>
+
+      <label for="departamento">Nota 4</label><br>
+      <input type="text" id="nota4"><br><br>
+
+      <label for="linguagem">Nota 5</label><br>
+      <input type="text" id="nota5"><br><br>
+        
+      <button onclick="calcularMedia()">Calcular Média</button>
+  </main>
+  
+  <script src="/boletim.js"></script>
+</body>
+</html>

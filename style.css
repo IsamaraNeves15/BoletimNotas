@@ -1,0 +1,42 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: chocolate;
+
+}
+
+.header, a {
+  color: white;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  padding: 10px;
+  gap: 1.0rem; 
+}
+
+a {
+  text-decoration: none;
+  list-style: none; 
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#resultado {
+  max-width: 300px;
+  margin: 0 auto;
+}
