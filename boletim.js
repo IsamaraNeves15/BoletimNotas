@@ -3,7 +3,7 @@ function calcularMedia() {
   const nota2 = parseFloat(document.getElementById("nota2").value);
   const nota3 = parseFloat(document.getElementById("nota3").value);
   const nota4 = parseFloat(document.getElementById("nota4").value);
-  const nota5 = parseFloat(document.getElementById("nota4").value);
+  const nota5 = parseFloat(document.getElementById("nota5").value);
 
 
   const media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5;
